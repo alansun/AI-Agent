@@ -1,0 +1,19 @@
+{
+  "name": "eating-today",
+  "version": "1.0.0",
+  "description": "Chalis is described as a food assistant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "agent": "node ./index.mjs"
+  },
+  "keywords": [
+    "eating",
+    "today"
+  ],
+  "author": "Alan Sun",
+  "license": "MIT",
+  "dependencies": {
+    "ollama": "^0.5.11"
+  }
+}

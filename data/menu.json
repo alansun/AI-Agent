@@ -1,0 +1,463 @@
+{
+  "menu": {
+    "tea": [
+      {
+        "name_zh": "茉莉綠茶/阿薩姆紅茶",
+        "name_en": "Jasmine Green Tea / Assam Black Tea",
+        "prices": {
+          "M": 30,
+          "L": 35
+        }
+      },
+      {
+        "name_zh": "四季春青茶",
+        "name_en": "Four Season Tea",
+        "recommended": true,
+        "prices": {
+          "M": 30,
+          "L": 35
+        }
+      },
+      {
+        "name_zh": "黃金烏龍",
+        "name_en": "Oolong Tea",
+        "prices": {
+          "M": 30,
+          "L": 35
+        }
+      },
+      {
+        "name_zh": "椰果紅/綠",
+        "name_en": "Coconut Jelly Black / Green Tea",
+        "prices": {
+          "M": 35,
+          "L": 45
+        }
+      },
+      {
+        "name_zh": "波霸紅/綠",
+        "name_en": "Bubble Black / Green Tea",
+        "prices": {
+          "M": 35,
+          "L": 45
+        }
+      },
+      {
+        "name_zh": "燕麥紅/綠/青",
+        "name_en": "Oat Black / Green / Four Season Tea",
+        "recommended": true,
+        "prices": {
+          "M": 35,
+          "L": 45
+        }
+      },
+      {
+        "name_zh": "微檸檬紅/青",
+        "name_en": "Light Lemon Black / Four Season Tea",
+        "prices": {
+          "M": 35,
+          "L": 45
+        }
+      },
+      {
+        "name_zh": "檸檬綠/青",
+        "name_en": "Lemon Green / Four Season Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "梅の綠",
+        "name_en": "Plum Green Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "8冰綠/情人茶",
+        "name_en": "No.8 Green Tea / Lover's Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "柚子紅/綠",
+        "name_en": "Yuzu Black / Green Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "柚子青/烏",
+        "name_en": "Yuzu Four Season / Oolong Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "冰淇淋紅茶",
+        "name_en": "Ice Cream Black Tea",
+        "special": "香草",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "多多綠/紅",
+        "name_en": "Yakult Green / Black Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "多多檸檬綠",
+        "name_en": "Yakult Lemon Green Tea",
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      }
+    ],
+    "milk_tea": [
+      {
+        "name_zh": "奶茶",
+        "name_en": "Milk Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "奶綠",
+        "name_en": "Green Milk Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "烏龍奶",
+        "name_en": "Oolong Milk Tea",
+        "recommended": true,
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "椰果奶茶",
+        "name_en": "Coconut Jelly Milk Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "珍珠奶茶",
+        "name_en": "Smaller Bubble Milk Tea",
+        "recommended": true,
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "波霸奶茶",
+        "name_en": "Bubble Milk Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "燕麥奶茶/奶青",
+        "name_en": "Oat Milk Tea / Four Season Milk Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "燕麥烏龍奶",
+        "name_en": "Oat Oolong Milk Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "冰淇淋奶茶",
+        "name_en": "Ice Cream Milk Tea",
+        "special": "香草",
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      },
+      {
+        "name_zh": "紅茶瑪奇朵",
+        "name_en": "Black Tea Macchiato (fresh cream)",
+        "recommended": true,
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "青茶瑪奇朵",
+        "name_en": "Four Season Tea Macchiato (fresh cream)",
+        "prices": {
+          "M": 45,
+          "L": 60
+        }
+      },
+      {
+        "name_zh": "阿華田",
+        "name_en": "Ovaltine",
+        "prices": {
+          "M": 45,
+          "L": 60
+        }
+      },
+      {
+        "name_zh": "燕麥阿華田",
+        "name_en": "Oat Ovaltine",
+        "prices": {
+          "M": 45,
+          "L": 60
+        }
+      },
+      {
+        "name_zh": "可可芭蕾",
+        "name_en": "Cacao Barry",
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      }
+    ],
+    "tea_latte": [
+      {
+        "name_zh": "紅茶拿鐵",
+        "name_en": "Black Tea Latte",
+        "recommended": true,
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      },
+      {
+        "name_zh": "綠茶拿鐵",
+        "name_en": "Green Tea Latte",
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      },
+      {
+        "name_zh": "烏龍拿鐵",
+        "name_en": "Oolong Tea Latte",
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      },
+      {
+        "name_zh": "珍珠紅茶拿鐵",
+        "name_en": "Smaller Bubble Black Tea Latte",
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      },
+      {
+        "name_zh": "波霸紅茶拿鐵",
+        "name_en": "Bubble Black Tea Latte",
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      },
+      {
+        "name_zh": "燕麥紅茶拿鐵",
+        "name_en": "Oat Black Tea Latte",
+        "recommended": true,
+        "prices": {
+          "M": 55,
+          "L": 75
+        }
+      },
+      {
+        "name_zh": "布丁紅茶拿鐵",
+        "name_en": "Pudding Black Tea Latte",
+        "prices": {
+          "M": 55,
+          "L": 75
+        }
+      },
+      {
+        "name_zh": "冰淇淋紅茶拿鐵",
+        "name_en": "Ice Cream Black Tea Latte",
+        "special": "香草",
+        "prices": {
+          "M": 55,
+          "L": 75
+        }
+      },
+      {
+        "name_zh": "阿華田拿鐵",
+        "name_en": "Ovaltine Latte",
+        "prices": {
+          "M": 55,
+          "L": 75
+        }
+      },
+      {
+        "name_zh": "燕麥阿華田拿鐵",
+        "name_en": "Oat Ovaltine Latte",
+        "prices": {
+          "M": 55,
+          "L": 75
+        }
+      },
+      {
+        "name_zh": "可可芭蕾拿鐵",
+        "name_en": "Cacao Barry Latte",
+        "prices": {
+          "M": 55,
+          "L": 75
+        }
+      }
+    ],
+    "fresh_juice": [
+      {
+        "name_zh": "柚子茶",
+        "name_en": "Yuzu Juice",
+        "recommended": true,
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "8冰茶",
+        "name_en": "No.8 Juice",
+        "recommended": true,
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "檸檬汁",
+        "name_en": "Lemon Juice",
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      },
+      {
+        "name_zh": "金桔檸檬",
+        "name_en": "Kumquat Lemon Juice",
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      },
+      {
+        "name_zh": "檸檬梅汁",
+        "name_en": "Lemon Plum Juice",
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      },
+      {
+        "name_zh": "檸檬多多",
+        "name_en": "Lemon Yakult Juice",
+        "special": true,
+        "prices": {
+          "M": 55,
+          "L": 75
+        }
+      }
+    ],
+    "season_special": [
+      {
+        "name_zh": "蜂蜜紅/綠",
+        "name_en": "Honey Black / Green Tea",
+        "special": true,
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "蜂蜜奶茶",
+        "name_en": "Honey Milk Tea",
+        "special": true,
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      },
+      {
+        "name_zh": "鮮柚綠/葡萄柚汁",
+        "name_en": "Grapefruit Green Tea / Grapefruit Juice",
+        "special": true,
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      },
+      {
+        "name_zh": "葡萄柚蜜",
+        "name_en": "Honey Grapefruit Juice",
+        "special": true,
+        "prices": {
+          "M": 55,
+          "L": 75
+        }
+      },
+      {
+        "name_zh": "葡萄柚多多",
+        "name_en": "Grapefruit Yakult Juice",
+        "special": true,
+        "prices": {
+          "M": 55,
+          "L": 75
+        }
+      },
+      {
+        "name_zh": "檸檬蜜",
+        "name_en": "Honey Lemon Juice",
+        "special": true,
+        "prices": {
+          "M": 55,
+          "L": 75
+        }
+      },
+      {
+        "name_zh": "金桔檸檬蜜",
+        "name_en": "Honey Kumquat Lemon Juice",
+        "special": true,
+        "prices": {
+          "M": 55,
+          "L": 75
+        }
+      }
+    ]
+  },
+  "notes": {
+    "sugar_levels": ["無糖", "微糖", "半糖", "少糖", "全糖"],
+    "ice_levels": ["溫熱飲", "去冰", "微冰", "少冰", "正常冰"],
+    "add_ons": ["波霸", "珍珠", "燕麥", "椰果"]
+  }
+}
