@@ -1,27 +1,79 @@
 import ollama from "ollama";
-
+import readline from "readline";
+import { readFileSync } from "fs";
 import { SYSTEM_DESCRIPTION } from "./contant.mjs";
 
-(async () => {
-  const response = await ollama.chat({
-    model: "ChalisAssistant",
-    messages: [
-      SYSTEM_DESCRIPTION,
-      { role: "user", content: "請列出菜單" },
-      // {
-      //   role: "assistant",
-      //   content:
-      //     "您好！請問您今天想來什麼飲料？以下是我們的菜單選擇：\n" +
-      //     "\n" +
-      //     "1. 多多綠\n" +
-      //     "2. 芒果青木瓜\n" +
-      //     "3. 青蘋果冰沙\n" +
-      //     "4. 焦糖布甸\n" +
-      //     "\n" +
-      //     "如果您有特別的需求，也可以告訴我關於冰塊、甜度和添加品的偏好。期待您的選擇",
-      // },
-      // { role: "user", content: "有什麼推薦的飲料嗎？" },
-    ],
-  });
-  console.log(response.message);
-})();
+// 讀取菜單資料
+const menuData = JSON.parse(readFileSync("./data/menu.json", "utf-8"));
+
+// 建立互動式介面
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+// 初始化對話歷史
+let messages = [
+  {
+    role: "system",
+    content: `${SYSTEM_DESCRIPTION.content}\n\n菜單資料：${JSON.stringify(
+      menuData
+    )}`,
+  },
+];
+
+// 處理使用者輸入
+async function handleUserInput(input) {
+  try {
+    // 添加使用者訊息到歷史
+    messages.push({ role: "user", content: input });
+
+    // 獲取 AI 回應
+    const response = await ollama.chat({
+      model: "mistral",
+      messages: messages,
+    });
+
+    // 添加 AI 回應到歷史
+    messages.push(response.message);
+
+    // 輸出 AI 回應
+    console.log("\n🤖 AI:", response.message.content, "\n");
+
+    // 如果收到訂單，格式化輸出
+    if (response.message.content.includes("purch(")) {
+      console.log("📝 訂單已記錄！\n");
+    }
+  } catch (error) {
+    console.error("❌ 發生錯誤：", error.message);
+  }
+}
+
+// 主程式
+async function main() {
+  console.log("🍹 歡迎使用飲料點餐 AI 助理！");
+  console.log('輸入 "exit" 或 "quit" 結束對話\n');
+
+  // 開始對話循環
+  while (true) {
+    const input = await new Promise((resolve) => {
+      rl.question("👤 您：", resolve);
+    });
+
+    // 檢查是否要結束對話
+    if (input.toLowerCase() === "exit" || input.toLowerCase() === "quit") {
+      console.log("\n👋 感謝使用，再見！");
+      rl.close();
+      break;
+    }
+
+    // 處理使用者輸入
+    await handleUserInput(input);
+  }
+}
+
+// 啟動程式
+main().catch((error) => {
+  console.error("❌ 程式發生錯誤：", error);
+  process.exit(1);
+});
