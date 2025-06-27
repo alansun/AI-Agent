@@ -2,8 +2,16 @@
   "menu": {
     "tea": [
       {
-        "name_zh": "茉莉綠茶/阿薩姆紅茶",
-        "name_en": "Jasmine Green Tea / Assam Black Tea",
+        "name_zh": "阿薩姆紅茶",
+        "name_en": "Assam Black Tea",
+        "prices": {
+          "M": 30,
+          "L": 35
+        }
+      },
+      {
+        "name_zh": "茉莉綠茶",
+        "name_en": "Jasmine Green Tea",
         "prices": {
           "M": 30,
           "L": 35
@@ -27,24 +35,40 @@
         }
       },
       {
-        "name_zh": "椰果紅/綠",
-        "name_en": "Coconut Jelly Black / Green Tea",
+        "name_zh": "椰果紅",
+        "name_en": "Coconut Jelly Black Tea",
         "prices": {
           "M": 35,
           "L": 45
         }
       },
       {
-        "name_zh": "波霸紅/綠",
-        "name_en": "Bubble Black / Green Tea",
+        "name_zh": "椰果綠",
+        "name_en": "Coconut Jelly Tea",
         "prices": {
           "M": 35,
           "L": 45
         }
       },
       {
-        "name_zh": "燕麥紅/綠/青",
-        "name_en": "Oat Black / Green / Four Season Tea",
+        "name_zh": "波霸綠",
+        "name_en": "Bubble Green Tea",
+        "prices": {
+          "M": 35,
+          "L": 45
+        }
+      },
+      {
+        "name_zh": "波霸紅",
+        "name_en": "Bubble Black Tea",
+        "prices": {
+          "M": 35,
+          "L": 45
+        }
+      },
+      {
+        "name_zh": "燕麥綠",
+        "name_en": "Oat Green Tea",
         "recommended": true,
         "prices": {
           "M": 35,
@@ -52,16 +76,50 @@
         }
       },
       {
-        "name_zh": "微檸檬紅/青",
-        "name_en": "Light Lemon Black / Four Season Tea",
+        "name_zh": "燕麥青",
+        "name_en": "Oat Four Season Tea",
+        "recommended": true,
         "prices": {
           "M": 35,
           "L": 45
         }
       },
       {
-        "name_zh": "檸檬綠/青",
-        "name_en": "Lemon Green / Four Season Tea",
+        "name_zh": "燕麥紅",
+        "name_en": "Oat Black Tea",
+        "recommended": true,
+        "prices": {
+          "M": 35,
+          "L": 45
+        }
+      },
+      {
+        "name_zh": "微檸檬紅",
+        "name_en": "Light Lemon Black Tea",
+        "prices": {
+          "M": 35,
+          "L": 45
+        }
+      },
+      {
+        "name_zh": "微檸檬青",
+        "name_en": "Light Lemon Four Season Tea",
+        "prices": {
+          "M": 35,
+          "L": 45
+        }
+      },
+      {
+        "name_zh": "檸檬青",
+        "name_en": "Lemon Four Season Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "檸檬綠",
+        "name_en": "Lemon Green Tea",
         "prices": {
           "M": 40,
           "L": 55
@@ -76,24 +134,48 @@
         }
       },
       {
-        "name_zh": "8冰綠/情人茶",
-        "name_en": "No.8 Green Tea / Lover's Tea",
+        "name_zh": "8冰綠",
+        "name_en": "No.8 Green Tea",
         "prices": {
           "M": 40,
           "L": 55
         }
       },
       {
-        "name_zh": "柚子紅/綠",
-        "name_en": "Yuzu Black / Green Tea",
+        "name_zh": "情人茶",
+        "name_en": "Lover's Tea",
         "prices": {
           "M": 40,
           "L": 55
         }
       },
       {
-        "name_zh": "柚子青/烏",
-        "name_en": "Yuzu Four Season / Oolong Tea",
+        "name_zh": "柚子紅",
+        "name_en": "Yuzu Black Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "柚子綠",
+        "name_en": "Yuzu Green Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "柚子青",
+        "name_en": "Yuzu Four Season Tea",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "柚子烏",
+        "name_en": "Yuzu Oolong Tea",
         "prices": {
           "M": 40,
           "L": 55
@@ -109,8 +191,16 @@
         }
       },
       {
-        "name_zh": "多多綠/紅",
-        "name_en": "Yakult Green / Black Tea",
+        "name_zh": "多多綠",
+        "name_en": "Yakult Green",
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "多多紅",
+        "name_en": "Yakult Black Tea",
         "prices": {
           "M": 40,
           "L": 55
@@ -391,8 +481,17 @@
     ],
     "season_special": [
       {
-        "name_zh": "蜂蜜紅/綠",
-        "name_en": "Honey Black / Green Tea",
+        "name_zh": "蜂蜜紅",
+        "name_en": "Honey Black Tea",
+        "special": true,
+        "prices": {
+          "M": 40,
+          "L": 55
+        }
+      },
+      {
+        "name_zh": "蜂蜜綠",
+        "name_en": "Honey Green Tea",
         "special": true,
         "prices": {
           "M": 40,
@@ -409,8 +508,17 @@
         }
       },
       {
-        "name_zh": "鮮柚綠/葡萄柚汁",
-        "name_en": "Grapefruit Green Tea / Grapefruit Juice",
+        "name_zh": "鮮柚綠",
+        "name_en": "Grapefruit Green Tea",
+        "special": true,
+        "prices": {
+          "M": 50,
+          "L": 65
+        }
+      },
+      {
+        "name_zh": "鮮柚綠",
+        "name_en": "Grapefruit Green Tea",
         "special": true,
         "prices": {
           "M": 50,

@@ -1,11 +1,13 @@
 {
   "name": "eating-today",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Chalis is described as a food assistant",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "agent": "node ./index.mjs"
+    "agent": "node ./index.mjs",
+    "step1": "node ./step1.mjs",
+    "step2": "node ./step2.mjs"
   },
   "keywords": [
     "eating",
